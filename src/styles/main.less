@@ -1,0 +1,50 @@
+@fontePrincipal: 'Pokemon Solid', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5885c9;
+}
+
+h1 {
+    font-family: @fontePrincipal;
+    color: #c9b858;
+    text-align: center;
+    font-size: 5rem;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+
+    button {
+        align-self: center;
+        padding: 1rem;
+        background-color: #c95858;
+        border: none;
+        box-shadow: 0 2px 2px 0 #0346b19d;
+        border-radius: 3px;
+        cursor: pointer;
+        color: azure;
+    }
+}
+
+.time-pokemon {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+
+    li {
+        img {
+            width: 100px;
+        }
+    }
+}

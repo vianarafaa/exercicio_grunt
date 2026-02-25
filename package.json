@@ -1,15 +1,21 @@
 {
-  "name": "exercício-grunt",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "grunt": "^1.6.1"
-  }
+    "name": "exercicio-grunt",
+    "module": "index.js",
+    "private": true,
+    "scripts": {
+        "grunt": "grunt",
+        "build": "grunt build"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "grunt": "^1.6.1",
+        "grunt-contrib-less": "^3.0.0",
+        "grunt-contrib-watch": "^1.1.0",
+        "grunt-replace": "^2.0.2"
+    }
 }
